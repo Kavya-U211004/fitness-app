@@ -2,7 +2,7 @@
   "name": "fitness_app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kavya-u211004.github.io/fitness-app"
+  "homepage": "https://Kavya-U211004.github.io/fitness-app"
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
@@ -17,6 +17,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
